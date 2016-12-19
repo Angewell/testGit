@@ -4,3 +4,12 @@ modified demo.txt
 dev branch created
 master add
 dev分支添加
+
+$("联系我们_导航").click(function(){
+	$("html,body").stop().animate({
+		scrollTop: $("联系我们_容器").offset.top() + "px"
+	},500);
+});
+
+
+checkout -b dev
